@@ -1,1 +1,6 @@
-
+# Creating connection object
+mydb = mysql.connector.connect(
+    host = "elvis.rowan.edu",
+    user = "murraycl",
+    password = "1Coffeeplace!"
+)
